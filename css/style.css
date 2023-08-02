@@ -41,6 +41,25 @@ html,body{
         width: 250px;
         margin: auto;
     }
+    #section1, #section2{
+        text-align: center;
+    }
+    #boton1{
+        margin: auto;
+        margin-bottom: 10%;
+    }
+    #img1{
+        width: 60% !important;
+    }
+    #Titulo{
+        font-size: 350% !important;
+    }
+    #Titulo2    {
+        font-size: 200% !important;
+    }
+    #reves{
+        flex-direction: column-reverse;
+    }
 }
 body{
     background-color: #1e1d2b;
@@ -159,4 +178,43 @@ body{
     text-align: center;
     padding: 10px;
     justify-content: center;
+}
+#Titulo{
+    color: #ff702a;
+    font-size: 450%;
+    width: 100% !important;
+}
+#Text1{
+    color: white;
+    font-size: 150%;
+    width: 100%!important;
+}
+#section1, #section2{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#img1{
+    width: 100%;
+}
+#sec1izq,#sec2der{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#boton1{
+    width: 120px;
+    color: white;
+    background-color: #ff702a;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+}
+#Titulo2{
+    color: white;
+    font-size: 350%;
+}
+#subtitle2{
+    color: #ff702a;
+    font-size: 20px;
 }
